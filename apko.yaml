@@ -1,0 +1,16 @@
+contents:
+  keyring:
+    - https://packages.wolfi.dev/os/wolfi-signing.rsa.pub
+  repositories:
+    - https://packages.wolfi.dev/os
+  packages:
+    # fixed version
+    - bash=5.2.37
+    # version range
+    - git>2.40
+    # latest version
+    - python3
+
+archs:
+  - x86_64
+  - aarch64
