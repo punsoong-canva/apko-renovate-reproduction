@@ -5,7 +5,7 @@ First, read the [Renovate minimal reproduction instructions](https://github.com/
 Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 This Renovate minimal reproduction contains an `apko.yaml` file specifying packages with:
- - fixed older version (`bash=5.2.37`)
+ - fixed older version (`bash=5.2.37-r0`)
  - version range (`git>2.40`)
  - unspecific / latest version (`python3`)
 
@@ -19,9 +19,9 @@ Renovate does not support the `apko` manager
 
 Renovate should raise PRs for the `apko` manager including:
 
-- update to bash, minor and patch versions
-- lockFileMaintenance to update the `apko.lock.json` file
-- other packages unaffected
+- update to `bash`, minor and patch versions
+- lockFileMaintenance to update the `apko.lock.json` file.
+- `git` and `python` packages are unaffected
 
 
 ## Link to the Renovate issue or Discussion

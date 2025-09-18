@@ -4,8 +4,8 @@ contents:
   repositories:
     - https://packages.wolfi.dev/os
   packages:
-    # fixed version
-    - bash=5.2.37
+    # fixed version, should see minor and patch updates with subsequent package version (rN) bump
+    - bash=5.2.37-r0
     # version range
     - git>2.40
     # latest version
