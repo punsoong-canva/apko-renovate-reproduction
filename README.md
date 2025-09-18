@@ -1,8 +1,6 @@
-# minimal-reproduction-template
+# 38087
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+Reproduction for [Renovate issue 38087](https://github.com/renovatebot/renovate/discussions/38087)
 
 This Renovate minimal reproduction contains an `apko.yaml` file specifying packages with:
  - fixed older version (`bash=5.2.37-r0`)
