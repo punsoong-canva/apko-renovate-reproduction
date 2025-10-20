@@ -1,17 +1,7 @@
 {
   "semanticCommits": "enabled",
   "lockFileMaintenance": {
-    "enabled": false,
+    "enabled": true,
     "schedule": [ "at any time" ]
-  },
-  "packageRules": [
-    {
-      "matchManagers": ["apko"],
-      "addLabels": ["apko"],
-      "lockFileMaintenance": {
-        "enabled": true,
-        "schedule": ["at any time"]
-      }
-    }
-  ]
+  }
 }
