@@ -1,4 +1,5 @@
 {
+  "semanticCommits": "enabled",
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": [ "at any time" ]
