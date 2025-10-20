@@ -5,7 +5,7 @@ contents:
     - https://packages.wolfi.dev/os
   packages:
     # with a patch version
-    - git=2.50.0
+    - git=2.51.1-r1
 
 archs:
   - x86_64
