@@ -4,8 +4,8 @@ contents:
   repositories:
     - https://packages.wolfi.dev/os
   packages:
-    # with a minor version
-    - python3=3.12
+    # with a minor version using fuzzy version matching
+    - git~2.48
 
 archs:
   - x86_64

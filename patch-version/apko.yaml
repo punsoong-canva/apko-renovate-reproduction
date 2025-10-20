@@ -5,7 +5,7 @@ contents:
     - https://packages.wolfi.dev/os
   packages:
     # with a patch version
-    - python3=3.13.1
+    - git=2.50.0
 
 archs:
   - x86_64
