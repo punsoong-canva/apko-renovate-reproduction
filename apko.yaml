@@ -5,7 +5,7 @@ contents:
     - https://packages.wolfi.dev/os
   packages:
     # fixed version, should see minor and patch updates with subsequent package version (rN) bump
-    - bash=5.2.37-r0
+    - bash=5.3-r3
     # version range
     - git>2.40
     # latest version
